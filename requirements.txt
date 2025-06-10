@@ -1,0 +1,12 @@
+langchain
+langchain-community
+PyPDF2
+python-docx
+python-dotenv
+streamlit
+openai
+faiss-cpu
+altair
+tiktoken
+langchain-google-genai
+python-pptx
