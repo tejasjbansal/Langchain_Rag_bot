@@ -13,6 +13,7 @@ import time
 from typing import List, Dict, Any
 import io
 
+load_dotenv()
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
@@ -549,7 +550,6 @@ def get_file_icon(filename):
         return "📁"
 
 def main():
-    load_dotenv()
     st.set_page_config(
         page_title="ARD File Chatbot",
         page_icon="🤖",
